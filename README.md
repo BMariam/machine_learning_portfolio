@@ -3,18 +3,14 @@ This repository contains my machine learning projects.
 ## Projects
 
 ### Mall Customer Segmentation using KMeans
-Data source [here](https://www.kaggle.com/shwetabh123/mall-customers)
-
-Input variables:
-
-  CustomerID
-
-  Genre
-
-  Age
-  Annual Income (k$)
-  Spending Score (1-100)
-Dataset size: (200, 5)
+Data source [here](https://www.kaggle.com/shwetabh123/mall-customers)\
+Input variables:\
+  CustomerID\
+  Genre\
+  Age\
+  Annual Income (k$\)
+  Spending Score (1-100)\
+Dataset size: (200, 5)\
 Resources used: Python 3.6.9, pandas, matplotlib, seaborn, sklearn
 Data preparation techniques used: StandardScaler, LabelEncoder
 Algorithms used: KMeans 
