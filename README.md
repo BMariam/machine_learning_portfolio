@@ -14,7 +14,9 @@ Dataset size: (200, 5)\
 Resources used: Python 3.6.9, pandas, matplotlib, seaborn, sklearn\
 Data preparation techniques used: StandardScaler, LabelEncoder\
 Algorithms used: KMeans 
+
 Model performance:
+
   &nbsp;&nbsp;&nbsp;&nbsp;silhouette_score = 0.443 using 'Age' and 'Annual Income' features and setting n_clusters = 3\
   &nbsp;&nbsp;&nbsp;&nbsp;silhouette_score = 0.438 using 'Age' and 'Spending Score' features and setting n_clusters = 4\
   &nbsp;&nbsp;&nbsp;&nbsp;silhouette_score = 0.554 using 'Annual Income' and 'Spending Score' features and setting n_clusters = 5\
