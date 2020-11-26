@@ -58,3 +58,30 @@ Precision:  0.598
 Random Forest Classifier\
 Accuracy:  0.68\
 Precision:  0.734
+
+### Vehicle price detection
+Data source [here](https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho)\
+Input variables:\
+  &nbsp;&nbsp;&nbsp;&nbsp;name\
+  &nbsp;&nbsp;&nbsp;&nbsp;year\
+  &nbsp;&nbsp;&nbsp;&nbsp;selling_price\
+  &nbsp;&nbsp;&nbsp;&nbsp;km_driven\
+  &nbsp;&nbsp;&nbsp;&nbsp;fuel\
+  &nbsp;&nbsp;&nbsp;&nbsp;seller_type\
+  &nbsp;&nbsp;&nbsp;&nbsp;transmission\
+  &nbsp;&nbsp;&nbsp;&nbsp;owner\
+  &nbsp;&nbsp;&nbsp;&nbsp;mileage\
+  &nbsp;&nbsp;&nbsp;&nbsp;engine	\
+  &nbsp;&nbsp;&nbsp;&nbsp;max_power\
+  &nbsp;&nbsp;&nbsp;&nbsp;torque\
+  &nbsp;&nbsp;&nbsp;&nbsp;seats\
+Dataset size: (8128, 13)\
+Resources used: Python, pandas, numpy, seaborn, matplotlib, sklearn\
+Data preparation techniques used: OneHotEncoder, RobustScaler, SimpleImputer\
+Algorithms used: XGBRegressor
+
+*Model performance:*\
+rmse:  174463.019\
+mae:  71845.345\
+R2:  0.95448\
+R2_adjusted:  0.95427
