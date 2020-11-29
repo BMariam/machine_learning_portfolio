@@ -3,7 +3,7 @@ This repository contains my machine learning projects.
 ## Projects
 
 ### Mall Customer Segmentation using KMeans
-Data source [here](https://www.kaggle.com/shwetabh123/mall-customers)\
+Data source [kaggle.com/shwetabh123/mall-customers](https://www.kaggle.com/shwetabh123/mall-customers)\
 Input variables:\
   &nbsp;&nbsp;&nbsp;&nbsp;CustomerID\
   &nbsp;&nbsp;&nbsp;&nbsp;Genre\
@@ -26,7 +26,7 @@ Scatterplot of the best performed model
 ![](mall_customer_segmentation_using_KMeans/images/scatterplot_of_annual_income_and_spending_score.png)
 
 ### Wine quality detection
-Data source [here](https://archive.ics.uci.edu/ml/datasets/wine+quality)\
+Data source [archive.ics.uci.edu/ml/datasets/wine+quality](https://archive.ics.uci.edu/ml/datasets/wine+quality)\
 Input variables:\
   &nbsp;&nbsp;&nbsp;&nbsp;type\
   &nbsp;&nbsp;&nbsp;&nbsp;fixed acidity\
@@ -60,7 +60,7 @@ Accuracy:  0.68\
 Precision:  0.734
 
 ### Vehicle price detection
-Data source [here](https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho)\
+Data source [kaggle.com/nehalbirla/vehicle-dataset-from-cardekho](https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho)\
 Input variables:\
   &nbsp;&nbsp;&nbsp;&nbsp;name\
   &nbsp;&nbsp;&nbsp;&nbsp;year\
