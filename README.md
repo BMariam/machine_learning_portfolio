@@ -86,7 +86,7 @@ mae:  71845.345\
 R2:  0.95448\
 R2_adjusted:  0.95427
 
-### World_University_Rankings
+### World university rankings
 Data source: [https://www.kaggle.com/mylesoneill/world-university-rankings](https://www.kaggle.com/mylesoneill/world-university-rankings)\
 Input variables:\
   &nbsp;&nbsp;&nbsp;&nbsp;world_rank\
