@@ -85,3 +85,31 @@ rmse:  174463.019\
 mae:  71845.345\
 R2:  0.95448\
 R2_adjusted:  0.95427
+
+### World_University_Rankings
+Data source: [https://www.kaggle.com/mylesoneill/world-university-rankings](https://www.kaggle.com/mylesoneill/world-university-rankings)\
+Input variables:\
+  &nbsp;&nbsp;&nbsp;&nbsp;world_rank\
+  &nbsp;&nbsp;&nbsp;&nbsp;institution\
+  &nbsp;&nbsp;&nbsp;&nbsp;country\
+  &nbsp;&nbsp;&nbsp;&nbsp;national_rank\
+  &nbsp;&nbsp;&nbsp;&nbsp;quality_of_education\
+  &nbsp;&nbsp;&nbsp;&nbsp;alumni_employment\
+  &nbsp;&nbsp;&nbsp;&nbsp;quality_of_faculty\
+  &nbsp;&nbsp;&nbsp;&nbsp;publications\
+  &nbsp;&nbsp;&nbsp;&nbsp;influence\
+  &nbsp;&nbsp;&nbsp;&nbsp;citations\
+  &nbsp;&nbsp;&nbsp;&nbsp;broad_impact\
+  &nbsp;&nbsp;&nbsp;&nbsp;patents\
+  &nbsp;&nbsp;&nbsp;&nbsp;score\
+  &nbsp;&nbsp;&nbsp;&nbsp;year\
+Dataset size: (2200, 14)\
+Resources used: Python, pandas, numpy, seaborn, matplotlib, sklearn\
+Data preparation techniques used: OneHotEncoder, StandardScaler, KNNImputer\
+Algorithms used: AdaBoostRegressor
+
+*Model performance:*\
+rmse: 48.617\
+mae: 42.109\
+R2: 0.974\
+R2_adjusted: 0.972
